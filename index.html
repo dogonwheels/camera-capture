@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+  body {
+    background: white;
+  }
+  video {
+    width: 640px;
+    height: 480px;
+    background: white url(camera.png) center no-repeat;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  }
+  canvas {
+      width: 640px;
+      height: 480px;
+      background: white url(camera.png) center no-repeat;
+      border: 1px solid #e2e2e2;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+  <video id="source" autoplay></video>
+  <canvas id="destination" width=640 height=480></canvas>
+  <p><button>Enable Camera</button></p>
+<script src="app.js"></script>
+</body>
+</html>
